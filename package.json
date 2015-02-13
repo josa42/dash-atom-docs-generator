@@ -1,0 +1,26 @@
+{
+  "name": "dash-atom-docs-generator",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Josa Gesell",
+  "bin": {
+    "dash-atom-docs": "bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josa42/dash-atom-docs-generator"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/josa42/dash-atom-docs-generator/issues"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "cheerio": "^0.17.0",
+    "mkdirp": "^0.5.0",
+    "request": "^2.53.0",
+    "sqlite3": "^2.2.7"
+  }
+}
